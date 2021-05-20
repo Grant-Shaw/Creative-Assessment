@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreativeAssessment.Views.LaunchPage"
+             Title="Welcome">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            <StackLayout
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="White">
+
+                <Frame OutlineColor="DarkCyan" 
+                   WidthRequest="300" 
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand">
+                    <StackLayout>
+                        <Button Text="Class" TextColor="DarkCyan" BorderColor="DarkCyan" BackgroundColor="White" BorderWidth="0.2" Clicked="Button_Clicked"></Button>
+                        <Button Text="Create Module" TextColor="DarkCyan" BackgroundColor="White" BorderColor="DarkCyan" BorderWidth="0.2" Clicked="Button_Clicked_1"></Button>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
